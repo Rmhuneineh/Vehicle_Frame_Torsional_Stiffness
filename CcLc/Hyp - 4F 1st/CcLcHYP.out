@@ -1,0 +1,252 @@
+ ************************************************************************
+ **                                                                    **
+ **                                                                    **
+ **                    Altair OptiStruct(TM) 2019.1                    **
+ **                                                                    **
+ **             Advanced Engineering Analysis, Design and              **
+ **        Optimization Software from Altair Engineering, Inc.         **
+ **                                                                    **
+ **                                                                    **
+ **             Windows 10  (Build 9200)  LAPTOP-H5REUNLN              **
+ **         4 CPU:  Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz          **
+ **                    3355 MB RAM,  15785 MB swap                     **
+ **                        64bit Integer Build                         **
+ **                                                                    **
+ ** Build: 0972633_9633191_Ce64RBW68UH14M:162557-100  2004004000000004 **
+ ************************************************************************
+ **  COPYRIGHT (C) 1996-2019                 Altair Engineering, Inc.  **
+ ** All Rights Reserved.  Copyright notice does not imply publication. **
+ **         Contains trade secrets of Altair Engineering, Inc.         **
+ ** Decompilation or disassembly of this software strictly prohibited. **
+ ************************************************************************
+ 
+  
+ *** OptiStruct defaults set from:
+   install config file: C:\Program Files\Altair\2019\/hwsolvers/optistruct.cfg.
+  
+  
+ NOTE # 9199
+ MSGLMT=STRICT is active, all messages will be printed.
+ You can suppress some less important warning messages by use of
+  MSGLMT=BRIEF or UNREF (in config file or in the input data).
+  
+  
+  
+ *** WARNING # 1528
+ for material id = 1 referenced from property id = 1.
+ Zero value of G calculated from E and Nu for MAT1 referenced from PSHELL MID3.
+ This will be interpreted as no transverse shear deformation.
+
+
+  Dependent degrees-of-freedom (DOF) swapped by activation of AUTOMSET
+  --------------------------------------------------------------------
+       No.         Original DOF                    New DOF
+                 Grid ID    Component          Grid ID    Component
+         1        868248            1           757272            1
+         2        868248            3           769044            3
+         3        868247            3           732767            3
+         4        868243            3           695087            3
+         5        868246            2           830708            2
+         6        868246            3           830708            3
+  --------------------------------------------------------------------
+
+
+  
+ *** WARNING: The amount of allocated memory exceeds available RAM - this
+may cause significant slowing down of solution progress due to the swapping
+out memory to the swap file. It is recommended to use out-of-core
+solution to reduce memory requirements.
+  
+ 
+
+************************************************************************
+
+OPTIMIZATION FILE AND PARAMETER INFORMATION :
+---------------------------------------------
+
+  FEM model file               : 
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLc/Hyp - 1D 1st/CcLcHYP.fem
+  Output files prefix          : 
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLc/Hyp - 1D 1st/CcLcHYP
+  Model read from files:
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLc/Hyp - 1D 1st/CcLcHYP.fem
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+FINITE ELEMENT MODEL DATA INFORMATION :
+---------------------------------------
+
+  Total # of Grids (Structural)        :    173627
+  Total # of Elements                  :    347268
+  Total # of Rigid Elements            :         8
+  Total # of Rigid Element Constraints :        48
+  Total # of Degrees of Freedom        :   1041756
+  (Structural)
+  Total # of Non-zero Stiffness Terms  :  22398618
+
+ 
+  Element Type Information
+  ------------------------
+
+   CTRIA3   Elements   :   347268     
+
+  Load and Boundary Information
+  -----------------------------
+
+   FORCE Sets        :         1
+   SPC   Sets        :         1
+
+  Material and Property Information
+  ---------------------------------
+
+   PSHELL Cards      :         1
+   MAT1   Cards      :         1
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+OPTIMIZATION PROBLEM PARAMETERS :
+---------------------------------
+
+ NO DESIGN MATERIAL OR DESIGN VARIABLES FOUND  : ANALYSIS ONLY
+
+   ------------------------
+   Static Subcase Summary :
+   ------------------------
+
+   ----------   --------  -------  --------------------- 
+   Subcase ID    SPC ID   LOAD ID  Preloading Subcase ID
+   ----------   --------  -------  --------------------- 
+        1            2          1
+   ----------   --------  -------  --------------------- 
+
+   Run Type                        :   Analysis Only (No design elements)
+   Run at location                 : C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLc/Hyp - 1D 1st/
+   Scratch file directory          : C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLc/Hyp - 1D 1st/
+                                     Free space:   123.904 GB
+   Number of CPU processors        :          1
+
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+MEMORY ESTIMATION INFORMATION :
+-------------------------------
+
+ Solver Type is:  Sparse-Matrix Solver
+                  Direct Method
+ 
+ Current Memory (RAM)                                    :    3710 MB
+ Estimated Minimum Memory (RAM) for Out of Core Solution :     852 MB
+ Recommended Memory (RAM) for Out of Core Solution       :     931 MB
+ Recommended Memory (RAM) for In-Core Solution           :    3710 MB
+ 
+DISK SPACE ESTIMATION INFORMATION :
+-----------------------------------
+
+ Estimated Disk Space for Output Data Files              :     136 MB
+ Estimated Scratch Disk Space for In-Core Solution       :     746 MB
+ Estimated Scratch Disk Space for Out of Core Solution   :    4376 MB
+
+************************************************************************
+
+
+BEGINNING ANALYSIS SOLUTION ....
+
+
+************************************************************************
+
+ANALYSIS RESULTS :
+------------------
+
+  
+ITERATION   0
+  
+ Element # 24869, element type TRIA3.
+ WARNING - Outside of recommended range: Vertex Angle =    13.870    
+           lower limit =    15.000    
+  
+ Element # 24870, element type TRIA3.
+ WARNING - Outside of recommended range: Vertex Angle =    13.870    
+           lower limit =    15.000    
+  
+ Element # 24871, element type TRIA3.
+ WARNING - Outside of recommended range: Vertex Angle =    13.241    
+           lower limit =    15.000    
+
+ NOTE : other similar error/warning messages were suppressed,
+        use PARAM,CHECKEL,FULL to obtain full report
+
+
+ Element Quality Check Summary
+ -----------------------------
+ Total # of elements that exceeded recommended range (warning) =   480
+ Note: Only element with the highest violation of each check is listed below.
+
+ Recommended range violations:
+ ------------------------------------------------------------------------------
+ Element     Property          # of     Recommended Range    Max.  Viol.  Elem.
+                               Viol.     Lower     Upper    Value  type    No.
+ ------- ------------------- -------- --------- --------- --------- --- -------
+ TRIA3   Vertex Angle             480     15.00    165.00     10.99  L    31425
+ 
+  
+ *** INFORMATION # 3454
+ MPC constraints for subcase 1 will be enforced 
+ with lagrange multipliers.
+  
+ (Scratch disk space usage for starting iteration = 781 MB)
+(Running in-core solution)
+
+Volume                              =  4.34215E+06   Mass     =  0.00000E+00
+
+ Subcase   Compliance     Epsilon
+       1  1.849803E+02  1.146849E-09
+
+Note : Epsilon = Residual Strain Energy Ratio.
+
+
+************************************************************************
+  
+ ANALYSIS COMPLETED.
+  
+
+************************************************************************
+
+RESOURCE USAGE INFORMATION
+--------------------------
+
+ MAXIMUM MEMORY USED                                      3710 MB
+   IN ADDITION     46 MB MEMORY WAS ALLOCATED FOR TEMPORARY USE
+ MAXIMUM DISK SPACE USED                                  1265 MB
+
+************************************************************************
+
+
+************************************************************************
+
+COMPUTE TIME INFORMATION
+------------------------
+
+ EXECUTION STARTED                         Wed May 20 16:50:58 2020    
+ EXECUTION COMPLETED                       Wed May 20 16:51:46 2020    
+ ELAPSED TIME                                         00:00:48
+ CPU TIME                                             00:00:45
+
+************************************************************************
+
+  
+                        ***** END OF REPORT *****
+  
+ For Useful OptiStruct Tips and Tricks, go to the URL:
+ http://www.altairhyperworks.com/tips.aspx

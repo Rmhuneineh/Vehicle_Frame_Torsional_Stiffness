@@ -1,0 +1,173 @@
+ ************************************************************************
+ **                                                                    **
+ **                                                                    **
+ **                    Altair OptiStruct(TM) 2019.1                    **
+ **                                                                    **
+ **             Advanced Engineering Analysis, Design and              **
+ **        Optimization Software from Altair Engineering, Inc.         **
+ **                                                                    **
+ **                                                                    **
+ **             Windows 10  (Build 9200)  LAPTOP-H5REUNLN              **
+ **         4 CPU:  Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz          **
+ **                    2661 MB RAM,  15508 MB swap                     **
+ **                        64bit Integer Build                         **
+ **                                                                    **
+ ** Build: 0972633_9633191_Ce64RBW68UH14M:162557-100  2004004000000004 **
+ ************************************************************************
+ **  COPYRIGHT (C) 1996-2019                 Altair Engineering, Inc.  **
+ ** All Rights Reserved.  Copyright notice does not imply publication. **
+ **         Contains trade secrets of Altair Engineering, Inc.         **
+ ** Decompilation or disassembly of this software strictly prohibited. **
+ ************************************************************************
+ 
+  
+ *** OptiStruct defaults set from:
+   install config file: C:\Program Files\Altair\2019\/hwsolvers/optistruct.cfg.
+  
+  
+ NOTE # 9199
+ MSGLMT=STRICT is active, all messages will be printed.
+ You can suppress some less important warning messages by use of
+  MSGLMT=BRIEF or UNREF (in config file or in the input data).
+  
+ 
+ *** See next message about line 43460 from file:
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLc/CcLcHYP.fem
+  "CTRIA3         1       0 4346288 4346291 4346287"
+  
+ This line was interpreted as:
+ 43460:CTRIA3, 1, 0, 4346288, 4346291, 4346287
+  
+ *** ERROR # 1000 *** in the input data:
+ Incorrect data in field # 3.
+  Expected INT > 0 or blank, found  INTEGER (0).
+  
+ 
+ *** See next message about line 43461 from file:
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLc/CcLcHYP.fem
+  "CTRIA3         2       0 4346287 4346293 4346268"
+  
+ This line was interpreted as:
+ 43461:CTRIA3, 2, 0, 4346287, 4346293, 4346268
+  
+ *** ERROR # 1000 *** in the input data:
+ Incorrect data in field # 3.
+  Expected INT > 0 or blank, found  INTEGER (0).
+  
+ 
+ *** See next message about line 43462 from file:
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLc/CcLcHYP.fem
+  "CTRIA3         3       0 4346291 4346292 4346293"
+  
+ This line was interpreted as:
+ 43462:CTRIA3, 3, 0, 4346291, 4346292, 4346293
+  
+ *** ERROR # 1000 *** in the input data:
+ Incorrect data in field # 3.
+  Expected INT > 0 or blank, found  INTEGER (0).
+  
+ 
+ *** See next message about line 43463 from file:
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLc/CcLcHYP.fem
+  "CTRIA3         4       0 4346293 4346294 4346267"
+  
+ This line was interpreted as:
+ 43463:CTRIA3, 4, 0, 4346293, 4346294, 4346267
+  
+ *** ERROR # 1000 *** in the input data:
+ Incorrect data in field # 3.
+  Expected INT > 0 or blank, found  INTEGER (0).
+  
+ 
+ *** See next message about line 43464 from file:
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLc/CcLcHYP.fem
+  "CTRIA3         5       0 4346292 4346263 4346294"
+  
+ This line was interpreted as:
+ 43464:CTRIA3, 5, 0, 4346292, 4346263, 4346294
+  
+ *** ERROR # 1000 *** in the input data:
+ Incorrect data in field # 3.
+  Expected INT > 0 or blank, found  INTEGER (0).
+  
+ 
+ *** See next message about line 43465 from file:
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLc/CcLcHYP.fem
+  "CTRIA3         6       0 4346294 4346264 4346266"
+  
+ This line was interpreted as:
+ 43465:CTRIA3, 6, 0, 4346294, 4346264, 4346266
+  
+ *** ERROR # 1000 *** in the input data:
+ Incorrect data in field # 3.
+  Expected INT > 0 or blank, found  INTEGER (0).
+  
+ 
+ *** See next message about line 43466 from file:
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLc/CcLcHYP.fem
+  "CTRIA3         7       0 4346257 4346258 4346290"
+  
+ This line was interpreted as:
+ 43466:CTRIA3, 7, 0, 4346257, 4346258, 4346290
+  
+ *** ERROR # 1000 *** in the input data:
+ Incorrect data in field # 3.
+  Expected INT > 0 or blank, found  INTEGER (0).
+  
+ 
+ *** See next message about line 43467 from file:
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLc/CcLcHYP.fem
+  "CTRIA3         8       0 4346290 4346295 4346289"
+  
+ This line was interpreted as:
+ 43467:CTRIA3, 8, 0, 4346290, 4346295, 4346289
+  
+ *** ERROR # 1000 *** in the input data:
+ Incorrect data in field # 3.
+  Expected INT > 0 or blank, found  INTEGER (0).
+  
+ 
+ *** See next message about line 43468 from file:
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLc/CcLcHYP.fem
+  "CTRIA3         9       0 4346289 4346296 4346288"
+  
+ This line was interpreted as:
+ 43468:CTRIA3, 9, 0, 4346289, 4346296, 4346288
+  
+ *** ERROR # 1000 *** in the input data:
+ Incorrect data in field # 3.
+  Expected INT > 0 or blank, found  INTEGER (0).
+  
+ 
+ *** See next message about line 43469 from file:
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLc/CcLcHYP.fem
+  "CTRIA3        10       0 4346261 4346297 4346260"
+  
+ This line was interpreted as:
+ 43469:CTRIA3, 10, 0, 4346261, 4346297, 4346260
+  
+ *** ERROR # 1000 *** in the input data:
+ Incorrect data in field # 3.
+  Expected INT > 0 or blank, found  INTEGER (0).
+  
+ *** More of ERROR messages # 1000 were suppressed...
+  
+  
+ 
+ *** See next message about line 53459 from file:
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLc/CcLcHYP.fem
+  "CTRIA3     10000       0 4351690 4351699 4351700"
+  
+ ****************
+ Too many error messages. Aborting run.
+ Current limit is 10000. Use "MSGLMT" control card to change this value.
+  
+  
+************************************************************************
+ Following warning messages appeared too many times
+ and were suppressed:
+    1000
+ Total of 9989 repeat error message(s) were suppressed.
+ To see more messages use "MSGLMT" control card in the data or config file.
+  
+************************************************************************

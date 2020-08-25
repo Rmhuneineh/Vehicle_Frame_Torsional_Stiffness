@@ -1,0 +1,358 @@
+ ************************************************************************
+ **                                                                    **
+ **                                                                    **
+ **                    Altair OptiStruct(TM) 2019.1                    **
+ **                                                                    **
+ **             Advanced Engineering Analysis, Design and              **
+ **        Optimization Software from Altair Engineering, Inc.         **
+ **                                                                    **
+ **                                                                    **
+ **             Windows 10  (Build 9200)  LAPTOP-H5REUNLN              **
+ **         4 CPU:  Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz          **
+ **                    3071 MB RAM,  15252 MB swap                     **
+ **                        64bit Integer Build                         **
+ **                                                                    **
+ ** Build: 0972633_9633191_Ce64RBW68UH14M:162557-100  2004004000000004 **
+ ************************************************************************
+ **  COPYRIGHT (C) 1996-2019                 Altair Engineering, Inc.  **
+ ** All Rights Reserved.  Copyright notice does not imply publication. **
+ **         Contains trade secrets of Altair Engineering, Inc.         **
+ ** Decompilation or disassembly of this software strictly prohibited. **
+ ************************************************************************
+ 
+  
+ *** OptiStruct defaults set from:
+   install config file: C:\Program Files\Altair\2019\/hwsolvers/optistruct.cfg.
+  
+  
+ NOTE # 9199
+ MSGLMT=STRICT is active, all messages will be printed.
+ You can suppress some less important warning messages by use of
+  MSGLMT=BRIEF or UNREF (in config file or in the input data).
+  
+ *** WARNING # 1284
+ No SPC or SUPORT1 data specified for static SUBCASE 1.
+ Make sure the model is constrained otherwise.
+  
+  
+  
+ *** WARNING: The amount of allocated memory exceeds available RAM - this
+may cause significant slowing down of solution progress due to the swapping
+out memory to the swap file. It is recommended to use out-of-core
+solution to reduce memory requirements.
+  
+  
+ *** WARNING: The amount of allocated memory exceeds available RAM - this
+may cause significant slowing down of solution progress due to the swapping
+out memory to the swap file. It is recommended to use out-of-core
+solution to reduce memory requirements.
+  
+  
+ *** WARNING: The amount of allocated memory exceeds available RAM - this
+may cause significant slowing down of solution progress due to the swapping
+out memory to the swap file. It is recommended to use out-of-core
+solution to reduce memory requirements.
+  
+ 
+
+************************************************************************
+
+OPTIMIZATION FILE AND PARAMETER INFORMATION :
+---------------------------------------------
+
+  FEM model file               : 
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CoLo/Hyp 4 Forces/CoLo.fem
+  Output files prefix          : 
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CoLo/Hyp 4 Forces/CoLo
+  Model read from files:
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CoLo/Hyp 4 Forces/CoLo.fem
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+FINITE ELEMENT MODEL DATA INFORMATION :
+---------------------------------------
+
+  Total # of Grids (Structural)        :    610040
+  Total # of Elements                  :    305022
+  Total # of Rigid Elements            :         4
+  Total # of Rigid Element Constraints :        24
+  Total # of Degrees of Freedom        :   3660240
+  (Structural)
+  Total # of Non-zero Stiffness Terms  : 128109156
+
+ 
+  Element Type Information
+  ------------------------
+
+   CTRIA6   Elements   :   305022     
+
+  Load and Boundary Information
+  -----------------------------
+
+   FORCE Sets        :         1
+
+  Material and Property Information
+  ---------------------------------
+
+   PSHELL Cards      :         1
+   MAT1   Cards      :         1
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+OPTIMIZATION PROBLEM PARAMETERS :
+---------------------------------
+
+ NO DESIGN MATERIAL OR DESIGN VARIABLES FOUND  : ANALYSIS ONLY
+
+   ------------------------
+   Static Subcase Summary :
+   ------------------------
+
+   ----------   --------  -------  --------------------- 
+   Subcase ID    SPC ID   LOAD ID  Preloading Subcase ID
+   ----------   --------  -------  --------------------- 
+        1            0          1
+   ----------   --------  -------  --------------------- 
+
+   Run Type                        :   Analysis Only (No design elements)
+   Run at location                 : C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CoLo/Hyp 4 Forces/
+   Scratch file directory          : C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CoLo/Hyp 4 Forces/
+                                     Free space:   110.536 GB
+   Number of CPU processors        :          1
+
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+MEMORY ESTIMATION INFORMATION :
+-------------------------------
+
+ Solver Type is:  Sparse-Matrix Solver
+                  Direct Method
+ 
+ Current Memory (RAM)                                    :    3855 MB
+ Estimated Minimum Memory (RAM) for Out of Core Solution :    3445 MB
+ Recommended Memory (RAM) for Out of Core Solution       :    3855 MB
+ Recommended Memory (RAM) for In-Core Solution           :   19947 MB
+ 
+DISK SPACE ESTIMATION INFORMATION :
+-----------------------------------
+
+ Estimated Disk Space for Output Data Files              :     134 MB
+ Estimated Scratch Disk Space for In-Core Solution       :    4158 MB
+ Estimated Scratch Disk Space for Out of Core Solution   :   25171 MB
+
+************************************************************************
+
+
+BEGINNING ANALYSIS SOLUTION ....
+
+
+************************************************************************
+
+ANALYSIS RESULTS :
+------------------
+
+  
+ITERATION   0
+  
+ Element # 12495, element type TRIA6.
+ WARNING - Outside of recommended range: Vertex Angle =    9.4625    
+           lower limit =    15.000    
+  
+ Element # 24439, element type TRIA6.
+ WARNING - Outside of recommended range: Vertex Angle =    9.4625    
+           lower limit =    15.000    
+  
+ Element # 48624, element type TRIA6.
+ WARNING - Outside of recommended range: Vertex Angle =    9.4625    
+           lower limit =    15.000    
+
+ NOTE : other similar error/warning messages were suppressed,
+        use PARAM,CHECKEL,FULL to obtain full report
+
+
+ Element Quality Check Summary
+ -----------------------------
+ Total # of elements that exceeded recommended range (warning) =  4008
+ Note: Only element with the highest violation of each check is listed below.
+
+ Recommended range violations:
+ ------------------------------------------------------------------------------
+ Element     Property          # of     Recommended Range    Max.  Viol.  Elem.
+                               Viol.     Lower     Upper    Value  type    No.
+ ------- ------------------- -------- --------- --------- --------- --- -------
+ TRIA6   Vertex Angle            4008     15.00    165.00      9.46  L    60763
+ 
+  
+ *** INFORMATION # 3454
+ MPC constraints for subcase 1 will be enforced 
+ with lagrange multipliers.
+  
+ List of Auto-SPC d.o.f.s for loadcase   1
+ Total number of Auto-SPC d.o.f.s = 454386
+  
+ 		------------------------------
+ 		  Grid No.         Component
+ 		------------------------------
+                         52                 6
+                       1058                 6
+                       2112               5
+                       2114               5
+                       2118                 6
+                       2122               5
+                       2126               5
+                       2128                 6
+                       2129               5
+                       2134               5
+                       2136               5
+                       2137                 6
+                       2144                 6
+                       2146               5
+                       2148               5
+                       2153               5
+                       2158                 6
+                       2160               5
+                       2161               5
+                       2162                 6
+                       2163                 6
+                       2165               5
+                       2170                 6
+                       2173                 6
+                       2180               5
+                       2182                 6
+                       2192                 6
+                       2194               5
+                       2197               5
+                       2200                 6
+                       2205                 6
+                       2209                 6
+                       2212                 6
+                       2219               5
+                       2221                 6
+                       2223                 6
+                       2230               5
+                       2240                 6
+                       2245                 6
+                       2249                 6
+                       2260               5
+                       2265                 6
+                       2273               5
+                       2276               5
+                       2282                 6
+                       2287                 6
+                       2289                 6
+                       2291                 6
+                       2293               5
+                       2294                 6
+                       2299                 6
+                       2303               5
+                       2305               5
+                       2306                 6
+                       2309                 6
+                       2312               5
+                       2313                 6
+                       2315                 6
+                       2319               5
+                       2323               5
+                       2326               5
+                       2327               5
+                       2328                 6
+                       2331               5
+                       2333                 6
+                       2335                 6
+                       2336               5
+                       2338                 6
+                       2346                 6
+                       2353                 6
+                       2355                 6
+                       2368                 6
+                       2369                 6
+                       2370               5
+                       2372               5
+                       2374               5
+                       2376               5
+                       2377               5
+                       2379                 6
+                       2383                 6
+                       2384               5
+                       2388               5
+                       2392               5
+                       2399                 6
+                       2414               5
+                       2417                 6
+                       2422                 6
+                       2426                 6
+                       2428               5
+                       2433                 6
+                       2434               5
+                       2445                 6
+                       2446               5
+                       2448                 6
+                       2450               5
+                       2461               5
+                       2468                 6
+                       2475                 6
+                       2480                 6
+                       2483               5
+ 		------------------------------
+  
+	Because of PARAM, PRGPST, 100, Auto-SPC printing is limited to 100 dofs.
+  
+  
+ (Scratch disk space usage for starting iteration = 19660 MB)
+(Running out-of-core solution)
+
+Volume                              =  1.88882E+06   Mass     =  0.00000E+00
+
+ Subcase   Compliance     Epsilon
+       1  5.361302E+04 -3.086659E-08
+
+Note : Epsilon = Residual Strain Energy Ratio.
+
+
+************************************************************************
+  
+ ANALYSIS COMPLETED.
+  
+
+************************************************************************
+
+RESOURCE USAGE INFORMATION
+--------------------------
+
+ MAXIMUM MEMORY USED                                      3855 MB
+   IN ADDITION    223 MB MEMORY WAS ALLOCATED FOR TEMPORARY USE
+ MAXIMUM DISK SPACE USED                                 23134 MB
+
+************************************************************************
+
+
+************************************************************************
+
+COMPUTE TIME INFORMATION
+------------------------
+
+ EXECUTION STARTED                         Mon May 18 17:55:17 2020    
+ EXECUTION COMPLETED                       Mon May 18 18:01:11 2020    
+ ELAPSED TIME                                         00:05:54
+ CPU TIME                                             00:04:32
+
+************************************************************************
+
+  
+                        ***** END OF REPORT *****
+  
+ For Useful OptiStruct Tips and Tricks, go to the URL:
+ http://www.altairhyperworks.com/tips.aspx

@@ -1,0 +1,6 @@
+*createmark(elements,1)     4471 
+     4567
+*entitysetcreate("OS_elcheck_all",elements,1)
+*createmark(elements,1)     4471 
+     4567
+*entitysetcreate("OS_elcheck_angle  ",elements,1)

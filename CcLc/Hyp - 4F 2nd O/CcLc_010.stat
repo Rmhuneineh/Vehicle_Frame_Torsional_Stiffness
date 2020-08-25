@@ -1,0 +1,77 @@
+ Program execution started at Tue May 19 18:08:53 2020    
+	process id = 13100
+ Command line arguments:
+ C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLc/Hyp - 4F 2nd O/CcLc.fem
+ -aif
+  
+ Expanding dictionary from 0 to 1111
+
+Request for memory resize from        800 to       1780 MB
+Resize ok with new memory.
+
+TIME SPENT IN MODULE :    READ;  CPU=       5.55;  WALL=      5.75
+
+
+START RUNNING MODULE :  PREPR1 ...
+
+TIME SPENT IN MODULE :  PREPR1;  CPU=       0.00;  WALL=      0.01
+
+
+START RUNNING MODULE :  DESIGN ...
+
+TIME SPENT IN MODULE :  DESIGN;  CPU=       0.03;  WALL=      0.02
+
+
+START RUNNING MODULE :  PREPRO ...
+
+   Start running section :  PRDMGR ...
+
+   Time spent in section :  PRDMGR;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRROTD ...
+
+   Time spent in section :  PRROTD;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRP2DR ...
+  
+ *** ERROR # 772 ***
+ It is invalid to use a free grid as an independent grid in RBE3 data.
+ Free spiders are not allowed to be independent grids in RBE3 data.
+                RBE3 id =   347290
+           free grid id =   694630
+    weighted components =      123
+ You should remove this grid from the RBE3 data.
+
+   Start running section :  PRPSUM ...
+
+   Time spent in section :  PRPSUM;  CPU=       0.34;  WALL=      0.11
+
+
+   Start running section :  PRPMI4 ...
+
+TIME SPENT IN MODULE :  PREPRO;  CPU=       0.34;  WALL=      1.17
+
+ Detailed disk usage: 
+	High usage overall   :    0.0 MiB,
+	Solver scratch       :    0.0 MiB,
+	Internal database    :    0.0 MiB,
+	Out-of-core assembly :    0.0 MiB,
+	Temporary files      :    0.0 MiB.
+
+SOLUTION COMPLETED, THE FOLLOWING IS CPU/WALL CLOCK SUMMARY (IN SECONDS):
+
+TOTAL TIME SPENT IN MODULE :READ    ;  CPU=       5.55;  WALL=      5.75
+TOTAL TIME SPENT IN MODULE :PREPR1  ;  CPU=       0.00;  WALL=      0.01
+TOTAL TIME SPENT IN MODULE :DESIGN  ;  CPU=       0.03;  WALL=      0.02
+   Total time spent in section :PRDMGR  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRROTD  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPSUM  ;  CPU=       0.34;  WALL=      0.11
+TOTAL TIME SPENT IN MODULE :PREPRO  ;  CPU=       0.34;  WALL=      1.17
+
+CUMULATIVE RUN TIME:     CPU=        5.92;     WALL=        6.95
+
+  
+ *** Run terminated because of error(s) in the input data.
+  

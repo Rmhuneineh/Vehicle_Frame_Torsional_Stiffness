@@ -1,0 +1,340 @@
+ ************************************************************************
+ **                                                                    **
+ **                                                                    **
+ **                    Altair OptiStruct(TM) 2019.1                    **
+ **                                                                    **
+ **             Advanced Engineering Analysis, Design and              **
+ **        Optimization Software from Altair Engineering, Inc.         **
+ **                                                                    **
+ **                                                                    **
+ **             Windows 10  (Build 9200)  LAPTOP-H5REUNLN              **
+ **         4 CPU:  Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz          **
+ **                    3889 MB RAM,  16954 MB swap                     **
+ **                        64bit Integer Build                         **
+ **                                                                    **
+ ** Build: 0972633_9633191_Ce64RBW68UH14M:162557-100  2004004000000004 **
+ ************************************************************************
+ **  COPYRIGHT (C) 1996-2019                 Altair Engineering, Inc.  **
+ ** All Rights Reserved.  Copyright notice does not imply publication. **
+ **         Contains trade secrets of Altair Engineering, Inc.         **
+ ** Decompilation or disassembly of this software strictly prohibited. **
+ ************************************************************************
+ 
+  
+ *** OptiStruct defaults set from:
+   install config file: C:\Program Files\Altair\2019\/hwsolvers/optistruct.cfg.
+  
+  
+ NOTE # 9199
+ MSGLMT=STRICT is active, all messages will be printed.
+ You can suppress some less important warning messages by use of
+  MSGLMT=BRIEF or UNREF (in config file or in the input data).
+  
+  
+  
+ *** WARNING # 1528
+ for material id = 1 referenced from property id = 1.
+ Zero value of G calculated from E and Nu for MAT1 referenced from PSHELL MID3.
+ This will be interpreted as no transverse shear deformation.
+
+
+  Dependent degrees-of-freedom (DOF) swapped by activation of AUTOMSET
+  --------------------------------------------------------------------
+       No.         Original DOF                    New DOF
+                 Grid ID    Component          Grid ID    Component
+         1        641518            1           341552            1
+         2        641518            2           364951            2
+         3        641518            3           342191            1
+         4        641515            1           405208            1
+         5        641515            2           391789            2
+         6        641515            3           391789            1
+  --------------------------------------------------------------------
+
+
+  
+ *** WARNING: The amount of allocated memory exceeds available RAM - this
+may cause significant slowing down of solution progress due to the swapping
+out memory to the swap file. It is recommended to use out-of-core
+solution to reduce memory requirements.
+  
+  
+ *** WARNING: The amount of allocated memory exceeds available RAM - this
+may cause significant slowing down of solution progress due to the swapping
+out memory to the swap file. It is recommended to use out-of-core
+solution to reduce memory requirements.
+  
+ 
+
+************************************************************************
+
+OPTIMIZATION FILE AND PARAMETER INFORMATION :
+---------------------------------------------
+
+  FEM model file               : 
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CoLc/Hyp - 4F 2nd/CoLcHYP.fem
+  Output files prefix          : 
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CoLc/Hyp - 4F 2nd/CoLcHYP
+  Model read from files:
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CoLc/Hyp - 4F 2nd/CoLcHYP.fem
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+FINITE ELEMENT MODEL DATA INFORMATION :
+---------------------------------------
+
+  Total # of Grids (Structural)        :    603458
+  Total # of Elements                  :    301728
+  Total # of Rigid Elements            :         6
+  Total # of Rigid Element Constraints :        36
+  Total # of Degrees of Freedom        :   3620748
+  (Structural)
+  Total # of Non-zero Stiffness Terms  : 126725802
+
+ 
+  Element Type Information
+  ------------------------
+
+   CTRIA6   Elements   :   301728     
+
+  Load and Boundary Information
+  -----------------------------
+
+   FORCE Sets        :         1
+   SPC   Sets        :         1
+
+  Material and Property Information
+  ---------------------------------
+
+   PSHELL Cards      :         1
+   MAT1   Cards      :         1
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+OPTIMIZATION PROBLEM PARAMETERS :
+---------------------------------
+
+ NO DESIGN MATERIAL OR DESIGN VARIABLES FOUND  : ANALYSIS ONLY
+
+   ------------------------
+   Static Subcase Summary :
+   ------------------------
+
+   ----------   --------  -------  --------------------- 
+   Subcase ID    SPC ID   LOAD ID  Preloading Subcase ID
+   ----------   --------  -------  --------------------- 
+        1            2          1
+   ----------   --------  -------  --------------------- 
+
+   Run Type                        :   Analysis Only (No design elements)
+   Run at location                 : C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CoLc/Hyp - 4F 2nd/
+   Scratch file directory          : C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CoLc/Hyp - 4F 2nd/
+                                     Free space:   118.884 GB
+   Number of CPU processors        :          1
+
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+MEMORY ESTIMATION INFORMATION :
+-------------------------------
+
+ Solver Type is:  Sparse-Matrix Solver
+                  Direct Method
+ 
+ Current Memory (RAM)                                    :    3710 MB
+ Estimated Minimum Memory (RAM) for Out of Core Solution :    3317 MB
+ Recommended Memory (RAM) for Out of Core Solution       :    3710 MB
+ Recommended Memory (RAM) for In-Core Solution           :   18532 MB
+ 
+DISK SPACE ESTIMATION INFORMATION :
+-----------------------------------
+
+ Estimated Disk Space for Output Data Files              :     134 MB
+ Estimated Scratch Disk Space for In-Core Solution       :    4114 MB
+ Estimated Scratch Disk Space for Out of Core Solution   :   23354 MB
+
+************************************************************************
+
+
+BEGINNING ANALYSIS SOLUTION ....
+
+
+************************************************************************
+
+ANALYSIS RESULTS :
+------------------
+
+  
+ITERATION   0
+  
+ *** INFORMATION # 3454
+ MPC constraints for subcase 1 will be enforced 
+ with lagrange multipliers.
+  
+ List of Auto-SPC d.o.f.s for loadcase   1
+ Total number of Auto-SPC d.o.f.s = 538121
+  
+ 		------------------------------
+ 		  Grid No.         Component
+ 		------------------------------
+                      38083                 6
+                      38084                 6
+                      38085                 6
+                      38086                 6
+                      38087                 6
+                      38088                 6
+                      38089                 6
+                      38090                 6
+                      38091                 6
+                      38092                 6
+                      38093                 6
+                      38094                 6
+                      38095                 6
+                      38096                 6
+                      38097                 6
+                      38098                 6
+                      38099                 6
+                      38100                 6
+                      38101                 6
+                      38102                 6
+                      38103                 6
+                      38104                 6
+                      38105                 6
+                      38106                 6
+                      38107                 6
+                      38108                 6
+                      38109                 6
+                      38110                 6
+                      38111                 6
+                      38112                 6
+                      38113                 6
+                      38114                 6
+                      38115                 6
+                      38116                 6
+                      38117                 6
+                      38118                 6
+                      38119                 6
+                      38120                 6
+                      38121                 6
+                      38122                 6
+                      38123                 6
+                      38124                 6
+                      38125                 6
+                      38126                 6
+                      38127                 6
+                      38128                 6
+                      38129                 6
+                      38130                 6
+                      38131                 6
+                      38132                 6
+                      38133                 6
+                      38134                 6
+                      38135                 6
+                      38136                 6
+                      38137                 6
+                      38138                 6
+                      38139                 6
+                      38140                 6
+                      38141                 6
+                      38142                 6
+                      38143                 6
+                      38144                 6
+                      38145                 6
+                      38146                 6
+                      38147                 6
+                      38148                 6
+                      38149                 6
+                      38150                 6
+                      38151                 6
+                      38152                 6
+                      38153                 6
+                      38154                 6
+                      38155                 6
+                      38156                 6
+                      38157                 6
+                      38158                 6
+                      38159                 6
+                      38160                 6
+                      38161                 6
+                      38162                 6
+                      38163                 6
+                      38164                 6
+                      38165                 6
+                      38166                 6
+                      38167                 6
+                      38168                 6
+                      38169                 6
+                      38170                 6
+                      38171                 6
+                      38172                 6
+                      38173                 6
+                      38174                 6
+                      38175                 6
+                      38176                 6
+                      38177                 6
+                      38178                 6
+                      38179                 6
+                      38180                 6
+                      38181                 6
+                      38182                 6
+ 		------------------------------
+  
+	Because of PARAM, PRGPST, 100, Auto-SPC printing is limited to 100 dofs.
+  
+  
+ (Scratch disk space usage for starting iteration = 18488 MB)
+(Running out-of-core solution)
+
+Volume                              =  3.77160E+06   Mass     =  0.00000E+00
+
+ Subcase   Compliance     Epsilon
+       1  2.269150E+02 -5.636280E-09
+
+Note : Epsilon = Residual Strain Energy Ratio.
+
+
+************************************************************************
+  
+ ANALYSIS COMPLETED.
+  
+
+************************************************************************
+
+RESOURCE USAGE INFORMATION
+--------------------------
+
+ MAXIMUM MEMORY USED                                      3710 MB
+   IN ADDITION    222 MB MEMORY WAS ALLOCATED FOR TEMPORARY USE
+ MAXIMUM DISK SPACE USED                                 21911 MB
+
+************************************************************************
+
+
+************************************************************************
+
+COMPUTE TIME INFORMATION
+------------------------
+
+ EXECUTION STARTED                         Thu May 21 11:18:10 2020    
+ EXECUTION COMPLETED                       Thu May 21 11:22:56 2020    
+ ELAPSED TIME                                         00:04:46
+ CPU TIME                                             00:04:03
+
+************************************************************************
+
+  
+                        ***** END OF REPORT *****
+  
+ For Useful OptiStruct Tips and Tricks, go to the URL:
+ http://www.altairhyperworks.com/tips.aspx

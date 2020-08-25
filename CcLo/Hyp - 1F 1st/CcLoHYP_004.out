@@ -1,0 +1,240 @@
+ ************************************************************************
+ **                                                                    **
+ **                                                                    **
+ **                    Altair OptiStruct(TM) 2019.1                    **
+ **                                                                    **
+ **             Advanced Engineering Analysis, Design and              **
+ **        Optimization Software from Altair Engineering, Inc.         **
+ **                                                                    **
+ **                                                                    **
+ **             Windows 10  (Build 9200)  LAPTOP-H5REUNLN              **
+ **         4 CPU:  Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz          **
+ **                    3176 MB RAM,  15508 MB swap                     **
+ **                        64bit Integer Build                         **
+ **                                                                    **
+ ** Build: 0972633_9633191_Ce64RBW68UH14M:162557-100  2004004000000004 **
+ ************************************************************************
+ **  COPYRIGHT (C) 1996-2019                 Altair Engineering, Inc.  **
+ ** All Rights Reserved.  Copyright notice does not imply publication. **
+ **         Contains trade secrets of Altair Engineering, Inc.         **
+ ** Decompilation or disassembly of this software strictly prohibited. **
+ ************************************************************************
+ 
+  
+ *** OptiStruct defaults set from:
+   install config file: C:\Program Files\Altair\2019\/hwsolvers/optistruct.cfg.
+  
+  
+ NOTE # 9199
+ MSGLMT=STRICT is active, all messages will be printed.
+ You can suppress some less important warning messages by use of
+  MSGLMT=BRIEF or UNREF (in config file or in the input data).
+  
+  
+  
+ *** WARNING # 1528
+ for material id = 1 referenced from property id = 1.
+ Zero value of G calculated from E and Nu for MAT1 referenced from PSHELL MID3.
+ This will be interpreted as no transverse shear deformation.
+  
+ *** ERROR # 772 ***
+ It is invalid to use a free grid as an independent grid in RBE3 data.
+ Free spiders are not allowed to be independent grids in RBE3 data.
+                RBE3 id =    89141
+           free grid id =    20653
+    weighted components =      123
+ You should remove this grid from the RBE3 data.
+  
+ *** ERROR # 772 ***
+ It is invalid to use a free grid as an independent grid in RBE3 data.
+ Free spiders are not allowed to be independent grids in RBE3 data.
+                RBE3 id =    89141
+           free grid id =    20654
+    weighted components =      123
+ You should remove this grid from the RBE3 data.
+  
+ *** ERROR # 772 ***
+ It is invalid to use a free grid as an independent grid in RBE3 data.
+ Free spiders are not allowed to be independent grids in RBE3 data.
+                RBE3 id =    89141
+           free grid id =    20655
+    weighted components =      123
+ You should remove this grid from the RBE3 data.
+  
+ *** ERROR # 772 ***
+ It is invalid to use a free grid as an independent grid in RBE3 data.
+ Free spiders are not allowed to be independent grids in RBE3 data.
+                RBE3 id =    89141
+           free grid id =    20656
+    weighted components =      123
+ You should remove this grid from the RBE3 data.
+  
+ *** ERROR # 772 ***
+ It is invalid to use a free grid as an independent grid in RBE3 data.
+ Free spiders are not allowed to be independent grids in RBE3 data.
+                RBE3 id =    89141
+           free grid id =    20657
+    weighted components =      123
+ You should remove this grid from the RBE3 data.
+  
+ *** ERROR # 772 ***
+ It is invalid to use a free grid as an independent grid in RBE3 data.
+ Free spiders are not allowed to be independent grids in RBE3 data.
+                RBE3 id =    89141
+           free grid id =    20658
+    weighted components =      123
+ You should remove this grid from the RBE3 data.
+  
+ *** ERROR # 772 ***
+ It is invalid to use a free grid as an independent grid in RBE3 data.
+ Free spiders are not allowed to be independent grids in RBE3 data.
+                RBE3 id =    89141
+           free grid id =    20659
+    weighted components =      123
+ You should remove this grid from the RBE3 data.
+  
+ *** ERROR # 772 ***
+ It is invalid to use a free grid as an independent grid in RBE3 data.
+ Free spiders are not allowed to be independent grids in RBE3 data.
+                RBE3 id =    89141
+           free grid id =    20660
+    weighted components =      123
+ You should remove this grid from the RBE3 data.
+  
+ *** ERROR # 772 ***
+ It is invalid to use a free grid as an independent grid in RBE3 data.
+ Free spiders are not allowed to be independent grids in RBE3 data.
+                RBE3 id =    89141
+           free grid id =    20661
+    weighted components =      123
+ You should remove this grid from the RBE3 data.
+  
+ *** ERROR # 772 ***
+ It is invalid to use a free grid as an independent grid in RBE3 data.
+ Free spiders are not allowed to be independent grids in RBE3 data.
+                RBE3 id =    89141
+           free grid id =    20662
+    weighted components =      123
+ You should remove this grid from the RBE3 data.
+  
+ *** More of ERROR messages # 772 were suppressed...
+  
+ 
+
+************************************************************************
+
+OPTIMIZATION FILE AND PARAMETER INFORMATION :
+---------------------------------------------
+
+  FEM model file               : 
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLo/CcLoHYP.fem
+  Output files prefix          : 
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLo/CcLoHYP
+  Model read from files:
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLo/CcLoHYP.fem
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+FINITE ELEMENT MODEL DATA INFORMATION :
+---------------------------------------
+
+  Total # of Grids (Structural)        :    175891
+  Total # of Elements                  :    351792
+  Total # of Rigid Elements            :         1
+  Total # of Degrees of Freedom        :   1054928
+  (Structural)
+
+ 
+  Element Type Information
+  ------------------------
+
+   CTRIA3   Elements   :   351792     
+
+  Load and Boundary Information
+  -----------------------------
+
+   FORCE Sets        :         1
+   SPC   Sets        :         1
+
+  Material and Property Information
+  ---------------------------------
+
+   PSHELL Cards      :         1
+   MAT1   Cards      :         1
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+ ***** ERROR ENCOUNTERED BEFORE COMPLETING THE CHECK RUN *****
+ Current Memory (RAM)                                    :     800 MB
+ Estimated Minimum Memory (RAM) for the check run        :     704 MB
+
+************************************************************************
+
+  
+ This error occurs in module "prpdrv".
+
+************************************************************************
+
+RESOURCE USAGE INFORMATION
+--------------------------
+
+ MAXIMUM MEMORY USED                                       800 MB
+ MAXIMUM DISK SPACE USED                                     1 MB
+
+************************************************************************
+
+
+************************************************************************
+
+COMPUTE TIME INFORMATION
+------------------------
+
+ EXECUTION STARTED                         Sun Apr 26 16:11:12 2020    
+ EXECUTION COMPLETED                       Sun Apr 26 16:11:15 2020    
+ ELAPSED TIME                                         00:00:03
+ CPU TIME                                             00:00:02
+
+************************************************************************
+
+  
+ 
+ *** PROGRAM STOPPED: FATAL ERROR(s) ENCOUNTERED.
+ 
+                        ***** END OF REPORT *****
+  
+ For Useful OptiStruct Tips and Tricks, go to the URL:
+ http://www.altairhyperworks.com/tips.aspx
+  
+************************************************************************
+ Following warning messages appeared too many times
+ and were suppressed:
+     772
+ Total of 12 repeat error message(s) were suppressed.
+ To see more messages use "MSGLMT" control card in the data or config file.
+  
+************************************************************************
+  
+ There were 22 error messages during input processing.
+  The first message is repeated below:
+  
+  *** ERROR # 772 ***
+  It is invalid to use a free grid as an independent grid in RBE3 data.
+  Free spiders are not allowed to be independent grids in RBE3 data.
+                 RBE3 id =    89141
+            free grid id =    20653
+     weighted components =      123
+  You should remove this grid from the RBE3 data.
+  
+ *** Run terminated because of error(s) in the input data.
+  
+  
+  
+************************************************************************

@@ -1,0 +1,265 @@
+ ************************************************************************
+ **                                                                    **
+ **                                                                    **
+ **                    Altair OptiStruct(TM) 2019.1                    **
+ **                                                                    **
+ **             Advanced Engineering Analysis, Design and              **
+ **        Optimization Software from Altair Engineering, Inc.         **
+ **                                                                    **
+ **                                                                    **
+ **             Windows 10  (Build 9200)  LAPTOP-H5REUNLN              **
+ **         4 CPU:  Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz          **
+ **                    3273 MB RAM,  15508 MB swap                     **
+ **                        64bit Integer Build                         **
+ **                                                                    **
+ ** Build: 0972633_9633191_Ce64RBW68UH14M:162557-100  2004004000000004 **
+ ************************************************************************
+ **  COPYRIGHT (C) 1996-2019                 Altair Engineering, Inc.  **
+ ** All Rights Reserved.  Copyright notice does not imply publication. **
+ **         Contains trade secrets of Altair Engineering, Inc.         **
+ ** Decompilation or disassembly of this software strictly prohibited. **
+ ************************************************************************
+ 
+  
+ *** OptiStruct defaults set from:
+   install config file: C:\Program Files\Altair\2019\/hwsolvers/optistruct.cfg.
+  
+  
+ NOTE # 9199
+ MSGLMT=STRICT is active, all messages will be printed.
+ You can suppress some less important warning messages by use of
+  MSGLMT=BRIEF or UNREF (in config file or in the input data).
+  
+  
+  
+ *** WARNING # 1528
+ for material id = 1 referenced from property id = 1.
+ Zero value of G calculated from E and Nu for MAT1 referenced from PSHELL MID3.
+ This will be interpreted as no transverse shear deformation.
+ 
+
+************************************************************************
+
+OPTIMIZATION FILE AND PARAMETER INFORMATION :
+---------------------------------------------
+
+  FEM model file               : 
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLo/CcLoHYP.fem
+  Output files prefix          : 
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLo/CcLoHYP
+  Model read from files:
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLo/CcLoHYP.fem
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+FINITE ELEMENT MODEL DATA INFORMATION :
+---------------------------------------
+
+  Total # of Grids (Structural)        :     44543
+  Total # of Elements                  :     89140
+  Total # of Rigid Elements            :         1
+  Total # of Rigid Element Constraints :         6
+  Total # of Degrees of Freedom        :    267114
+  (Structural)
+  Total # of Non-zero Stiffness Terms  :   5743131
+
+ 
+  Element Type Information
+  ------------------------
+
+   CTRIA3   Elements   :    89140     
+
+  Load and Boundary Information
+  -----------------------------
+
+   FORCE Sets        :         1
+   SPC   Sets        :         1
+
+  Material and Property Information
+  ---------------------------------
+
+   PSHELL Cards      :         1
+   MAT1   Cards      :         1
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+OPTIMIZATION PROBLEM PARAMETERS :
+---------------------------------
+
+ NO DESIGN MATERIAL OR DESIGN VARIABLES FOUND  : ANALYSIS ONLY
+
+   ------------------------
+   Static Subcase Summary :
+   ------------------------
+
+   ----------   --------  -------  --------------------- 
+   Subcase ID    SPC ID   LOAD ID  Preloading Subcase ID
+   ----------   --------  -------  --------------------- 
+        1            2          1
+   ----------   --------  -------  --------------------- 
+
+   Run Type                        :   Analysis Only (No design elements)
+   Run at location                 : C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLo/
+   Scratch file directory          : C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLo/
+                                     Free space:   139.963 GB
+   Number of CPU processors        :          1
+
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+MEMORY ESTIMATION INFORMATION :
+-------------------------------
+
+ Solver Type is:  Sparse-Matrix Solver
+                  Direct Method
+ 
+ Current Memory (RAM)                                    :     842 MB
+ Estimated Minimum Memory (RAM) for Out of Core Solution :     231 MB
+ Recommended Memory (RAM) for Out of Core Solution       :     253 MB
+ Recommended Memory (RAM) for In-Core Solution           :     842 MB
+ 
+DISK SPACE ESTIMATION INFORMATION :
+-----------------------------------
+
+ Estimated Disk Space for Output Data Files              :      38 MB
+ Estimated Scratch Disk Space for In-Core Solution       :     191 MB
+ Estimated Scratch Disk Space for Out of Core Solution   :     969 MB
+
+************************************************************************
+
+
+BEGINNING ANALYSIS SOLUTION ....
+
+
+************************************************************************
+
+ANALYSIS RESULTS :
+------------------
+
+  
+ITERATION   0
+  
+ Element # 18, element type TRIA3.
+ WARNING - Outside of recommended range: Skew Angle =    80.033    
+           upper limit =    75.000    
+ WARNING - Outside of recommended range: Vertex Angle =    5.5701    
+           lower limit =    15.000    
+  
+ Element # 21, element type TRIA3.
+ WARNING - Outside of recommended range: Skew Angle =    77.133    
+           upper limit =    75.000    
+ WARNING - Outside of recommended range: Vertex Angle =    7.2127    
+           lower limit =    15.000    
+  
+ Element # 1466, element type TRIA3.
+ WARNING - Outside of recommended range: Skew Angle =    80.088    
+           upper limit =    75.000    
+ WARNING - Outside of recommended range: Vertex Angle =    5.5412    
+           lower limit =    15.000    
+
+ NOTE : other similar error/warning messages were suppressed,
+        use PARAM,CHECKEL,FULL to obtain full report
+
+  
+ Element # 4471, element type TRIA3.
+ ERROR - Acceptable range violation: Vertex Angle =    2.8615    
+         lower limit =    3.0000    
+  
+ Element # 4567, element type TRIA3.
+ ERROR - Acceptable range violation: Vertex Angle =    2.8615    
+         lower limit =    3.0000    
+  
+ *** ERROR # 2203 ***
+ Error(s) encountered during element check
+***** Element Quality Check Failed - error limits violation *****
+ 
+ NOTE : To bypass element quality checks (except essential validity checks)
+ use PARAM,CHECKEL,NO. This may, however, cause very poor results.
+
+ Element Quality Check Summary
+ -----------------------------
+ Total # of elements that exceeded acceptable range    (error) =     2
+ Total # of elements that exceeded recommended range (warning) =  2274
+ Note: Only element with the highest violation of each check is listed below.
+
+ Acceptable range violations:
+ ------------------------------------------------------------------------------
+ Element     Property          # of     Acceptable Range     Max.  Viol.  Elem.
+                               Viol.     Lower     Upper    Value  type    No.
+ ------- ------------------- -------- --------- --------- --------- --- -------
+ TRIA3   Vertex Angle               2      3.00    177.00      2.86  L     4567
+ 
+ Recommended range violations:
+ ------------------------------------------------------------------------------
+ Element     Property          # of     Recommended Range    Max.  Viol.  Elem.
+                               Viol.     Lower     Upper    Value  type    No.
+ ------- ------------------- -------- --------- --------- --------- --- -------
+ TRIA3   Skew Angle              2268        --     75.00     84.29  U     4471
+ TRIA3   Vertex Angle            2272     15.00    165.00      5.28  L     3026
+ 
+  
+ *** PROGRAM STOPPED: ERRORS DURING ELEMENT QUALITY CHECK.
+  
+
+************************************************************************
+
+RESOURCE USAGE INFORMATION
+--------------------------
+
+ MAXIMUM MEMORY USED                                       842 MB
+ MAXIMUM DISK SPACE USED                                    47 MB
+
+************************************************************************
+
+
+************************************************************************
+
+COMPUTE TIME INFORMATION
+------------------------
+
+ EXECUTION STARTED                         Sun Apr 26 16:07:05 2020    
+ EXECUTION COMPLETED                       Sun Apr 26 16:07:09 2020    
+ ELAPSED TIME                                         00:00:04
+ CPU TIME                                             00:00:03
+
+************************************************************************
+
+  
+ 
+ *** PROGRAM STOPPED: FATAL ERROR(s) ENCOUNTERED.
+ 
+                        ***** END OF REPORT *****
+  
+ For Useful OptiStruct Tips and Tricks, go to the URL:
+ http://www.altairhyperworks.com/tips.aspx
+  
+************************************************************************
+ OptiStruct error termination report printed to file
+ "CcLoHYP.stat".
+ Additional information may be found from standard streams stderr/stdout.
+ These are usually directed to the terminal, or collected
+ as separate files by any queuing or remote execution systems.
+ HyperWorks RunManager shows stderr in a separate 'log' window.
+ PROGRAM STOPPED DUE TO ERROR.
+  
+************************************************************************
+  
+ A fatal error has occurred during computations:
+  
+  *** PROGRAM STOPPED: ERRORS DURING ELEMENT QUALITY CHECK.
+  
+  
+  
+************************************************************************

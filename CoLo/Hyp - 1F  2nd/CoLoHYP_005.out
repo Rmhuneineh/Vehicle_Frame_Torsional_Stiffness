@@ -1,0 +1,250 @@
+ ************************************************************************
+ **                                                                    **
+ **                                                                    **
+ **                    Altair OptiStruct(TM) 2019.1                    **
+ **                                                                    **
+ **             Advanced Engineering Analysis, Design and              **
+ **        Optimization Software from Altair Engineering, Inc.         **
+ **                                                                    **
+ **                                                                    **
+ **             Windows 10  (Build 9200)  LAPTOP-H5REUNLN              **
+ **         4 CPU:  Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz          **
+ **                    2528 MB RAM,  15508 MB swap                     **
+ **                        64bit Integer Build                         **
+ **                                                                    **
+ ** Build: 0972633_9633191_Ce64RBW68UH14M:162557-100  2004004000000004 **
+ ************************************************************************
+ **  COPYRIGHT (C) 1996-2019                 Altair Engineering, Inc.  **
+ ** All Rights Reserved.  Copyright notice does not imply publication. **
+ **         Contains trade secrets of Altair Engineering, Inc.         **
+ ** Decompilation or disassembly of this software strictly prohibited. **
+ ************************************************************************
+ 
+  
+ *** OptiStruct defaults set from:
+   install config file: C:\Program Files\Altair\2019\/hwsolvers/optistruct.cfg.
+  
+  
+ NOTE # 9199
+ MSGLMT=STRICT is active, all messages will be printed.
+ You can suppress some less important warning messages by use of
+  MSGLMT=BRIEF or UNREF (in config file or in the input data).
+  
+  
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 1.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 2.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 3.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 4.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 5.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 6.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 7.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 8.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 9.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 10.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 11.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 12.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 13.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 14.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 15.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 16.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 17.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 18.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 19.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 20.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 21.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 22.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 23.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 24.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 25.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 26.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 27.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 28.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 29.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 30.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 31.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 32.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 33.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 34.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 35.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 36.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 37.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 38.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 39.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 40.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 41.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 42.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 43.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 44.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 45.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 46.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 47.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 48.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 49.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 50.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 51.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 52.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 53.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 54.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 55.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 56.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 57.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 58.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 59.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 60.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 61.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 62.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 63.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 64.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 65.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 66.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 67.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 68.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 69.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 70.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 71.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 72.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 73.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 74.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 75.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 76.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 77.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 78.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 79.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 80.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 81.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 82.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 83.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 84.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 85.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 86.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 87.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 88.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 89.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 90.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 91.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 92.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 93.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 94.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 95.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 96.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 97.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 98.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 99.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 100.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 101.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 102.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 103.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 104.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 105.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 106.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 107.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 108.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 109.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 110.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 111.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 112.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 113.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 114.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 115.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 116.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 117.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 118.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 119.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 120.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 121.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 122.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 123.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 124.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 125.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 126.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 127.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 128.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 129.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 130.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 131.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 132.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 133.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 134.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 135.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 136.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 137.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 138.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 139.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 140.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 141.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 142.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 143.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 144.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 145.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 146.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 147.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 148.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 149.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 150.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 151.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 152.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 153.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 154.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 155.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 156.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 157.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 158.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 159.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 160.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 161.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 162.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 163.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 164.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 165.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 166.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 167.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 168.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 169.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 170.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 171.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 172.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 173.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 174.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 175.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 176.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 177.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 178.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 179.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 180.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 181.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 182.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 183.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 184.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 185.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 186.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 187.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 188.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 189.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 190.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 191.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 192.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 193.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 194.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 195.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 196.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 197.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 198.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 199.
+ *** ERROR 14: Missing property #    1 referenced by  CTRIA3 # 200.
+  
+ *** More of ERROR messages # 14 were suppressed...
+  
+  
+ ****************
+ Too many error messages. Aborting run.
+ Current limit is 10000. Use "MSGLMT" control card to change this value.
+  
+  
+************************************************************************
+ Following warning messages appeared too many times
+ and were suppressed:
+      14
+ Total of 9799 repeat error message(s) were suppressed.
+ To see more messages use "MSGLMT" control card in the data or config file.
+  
+************************************************************************

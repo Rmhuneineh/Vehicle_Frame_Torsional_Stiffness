@@ -1,0 +1,333 @@
+ Program execution started at Sun Apr 26 16:07:05 2020    
+	process id = 11576
+ Command line arguments:
+ C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLo/CcLoHYP.fem
+ -aif
+  
+ Expanding dictionary from 0 to 1111
+
+TIME SPENT IN MODULE :    READ;  CPU=       0.56;  WALL=      0.57
+
+
+START RUNNING MODULE :  PREPR1 ...
+
+TIME SPENT IN MODULE :  PREPR1;  CPU=       0.02;  WALL=      0.00
+
+
+START RUNNING MODULE :  DESIGN ...
+
+TIME SPENT IN MODULE :  DESIGN;  CPU=       0.00;  WALL=      0.01
+
+
+START RUNNING MODULE :  PREPRO ...
+
+   Start running section :  PRDMGR ...
+
+   Time spent in section :  PRDMGR;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRROTD ...
+
+   Time spent in section :  PRROTD;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRP2DR ...
+
+   Time spent in section :  PRP2DR;  CPU=       0.17;  WALL=      0.05
+
+
+   Start running section :  PRPACO ...
+
+   Time spent in section :  PRPACO;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPFT1 ...
+
+   Time spent in section :  PRPFT1;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRDMIG ...
+
+   Time spent in section :  PRDMIG;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section : PRDMIG2 ...
+
+   Time spent in section : PRDMIG2;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPDDM ...
+
+   Time spent in section :  PRPDDM;  CPU=       0.14;  WALL=      0.05
+
+
+   Start running section :  PRPROF ...
+
+   Time spent in section :  PRPROF;  CPU=       0.06;  WALL=      0.03
+
+
+   Start running section :  PRPFRF ...
+
+   Time spent in section :  PRPFRF;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRP3DR ...
+
+   Time spent in section :  PRP3DR;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRDPPD ...
+
+   Time spent in section :  PRDPPD;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :PREPOUT0 ...
+
+   Time spent in section :PREPOUT0;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section : PREPOUT ...
+
+   Time spent in section : PREPOUT;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :PROUTSET ...
+
+   Time spent in section :PROUTSET;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :PROUTDYN ...
+
+   Time spent in section :PROUTDYN;  CPU=       0.00;  WALL=      0.01
+
+
+   Start running section :PROUTDST ...
+
+   Time spent in section :PROUTDST;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :PROUTSTP ...
+
+   Time spent in section :PROUTSTP;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :PROUTEND ...
+
+   Time spent in section :PROUTEND;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRMISD ...
+
+   Time spent in section :  PRMISD;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRP4DR ...
+
+   Time spent in section :  PRP4DR;  CPU=       0.75;  WALL=      0.72
+
+
+   Start running section :  PROPT1 ...
+
+   Time spent in section :  PROPT1;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRMIS2 ...
+
+   Time spent in section :  PRMIS2;  CPU=       0.00;  WALL=      0.01
+
+
+   Start running section :  PRPSL4 ...
+
+   Time spent in section :  PRPSL4;  CPU=       1.09;  WALL=      1.10
+
+
+   Start running section :  PRPMI1 ...
+
+   Time spent in section :  PRPMI1;  CPU=       0.03;  WALL=      0.03
+
+
+   Start running section :  PRPFT3 ...
+
+   Time spent in section :  PRPFT3;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPEST ...
+
+Request for memory resize from        800 to        842 MB
+Resize ok with new memory.
+
+   Time spent in section :  PRPEST;  CPU=       0.55;  WALL=      0.56
+
+
+   Start running section :  PRPMI2 ...
+
+   Time spent in section :  PRPMI2;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPMMO ...
+
+   Time spent in section :  PRPMMO;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPMI3 ...
+
+   Time spent in section :  PRPMI3;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPDSK ...
+
+   Time spent in section :  PRPDSK;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPSUM ...
+
+   Time spent in section :  PRPSUM;  CPU=       0.02;  WALL=      0.00
+
+
+   Start running section :  PRPMI4 ...
+
+   Time spent in section :  PRPMI4;  CPU=       0.00;  WALL=      0.00
+
+
+TIME SPENT IN MODULE :  PREPRO;  CPU=       2.83;  WALL=      3.43
+
+
+ITERATION   0 (times since start:      4.04     -4.04)
+
+START RUNNING MODULE : CHECKEL ...
+  
+ Element # 4567, element type TRIA3.
+  
+ *** PROGRAM STOPPED: ERRORS DURING ELEMENT QUALITY CHECK.
+  
+
+TIME SPENT IN MODULE : CHECKEL;  CPU=       0.05;  WALL=      0.05
+
+
+   Start running section : RESPREP ...
+
+TIME SPENT IN MODULE :   FINAL;  CPU=       0.00;  WALL=      0.01
+
+ Detailed disk usage: 
+	High usage overall   :   47.1 MiB,
+	Solver scratch       :    0.0 MiB,
+	Internal database    :   47.1 MiB,
+	Out-of-core assembly :    0.0 MiB,
+	Temporary files      :    0.0 MiB.
+
+SOLUTION COMPLETED, THE FOLLOWING IS CPU/WALL CLOCK SUMMARY (IN SECONDS):
+
+TOTAL TIME SPENT IN MODULE :READ    ;  CPU=       0.56;  WALL=      0.57
+TOTAL TIME SPENT IN MODULE :PREPR1  ;  CPU=       0.02;  WALL=      0.00
+TOTAL TIME SPENT IN MODULE :DESIGN  ;  CPU=       0.00;  WALL=      0.01
+   Total time spent in section :PRDMGR  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRROTD  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRP2DR  ;  CPU=       0.17;  WALL=      0.05
+   Total time spent in section :PRPACO  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPFT1  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRDMIG  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRDMIG2 ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPDDM  ;  CPU=       0.14;  WALL=      0.05
+   Total time spent in section :PRPROF  ;  CPU=       0.06;  WALL=      0.03
+   Total time spent in section :PRPFRF  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRP3DR  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRDPPD  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PREPOUT0;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PREPOUT ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PROUTSET;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PROUTDYN;  CPU=       0.00;  WALL=      0.01
+   Total time spent in section :PROUTDST;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PROUTSTP;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PROUTEND;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRMISD  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRP4DR  ;  CPU=       0.75;  WALL=      0.72
+   Total time spent in section :PROPT1  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRMIS2  ;  CPU=       0.00;  WALL=      0.01
+   Total time spent in section :PRPSL4  ;  CPU=       1.09;  WALL=      1.10
+   Total time spent in section :PRPMI1  ;  CPU=       0.03;  WALL=      0.03
+   Total time spent in section :PRPFT3  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPEST  ;  CPU=       0.55;  WALL=      0.56
+   Total time spent in section :PRPMI2  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPMMO  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPMI3  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPDSK  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPSUM  ;  CPU=       0.02;  WALL=      0.00
+   Total time spent in section :PRPMI4  ;  CPU=       0.00;  WALL=      0.00
+TOTAL TIME SPENT IN MODULE :PREPRO  ;  CPU=       2.83;  WALL=      3.43
+TOTAL TIME SPENT IN MODULE :CHECKEL ;  CPU=       0.05;  WALL=      0.05
+TOTAL TIME SPENT IN MODULE :FINAL   ;  CPU=       0.00;  WALL=      0.01
+
+CUMULATIVE RUN TIME:     CPU=        3.45;     WALL=        4.07
+
+  
+==============================
+Traceback exit report:
+  RAM:             842 MB total,    771 MB available.
+  Data arrays:     268 total,       177 allocated.
+  DATA SET size     47 MB, ram_disk      0 MB
+ ===
+DATASET USAGE: ndirs: 1, nfiles 1, nsets: 5, nblocks: 5, mode: 8
+ DIR: 0, size 91.0[MB], path "C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLo/" num_files 1
+ ---
+  
+Last dataset access:  DS_ID=4 ("ia") WRITR
+  
+ OptiStruct traceback info at: Sun Apr 26 16:07:09 2020
+  
+Trace point: 34:848
+ (  0)    34        fmain:848
+ ( -1)    10       optist:1979
+ ( -2)    13       wrtdrv:1715
+ ( -3)    10       optist:1903
+ ( -4)    20       prpdrv:15834
+ ( -5)   314     prepload:1014
+ ( -6)    20       prpdrv:6199
+ ( -7)    10       optist:617
+ ( -8)    14         flim:318
+ ( -9)    10       optist:588
+ (-10)    21      prp1drv:3052
+ (-11)    10       optist:571
+ (-12)    29      prp0drv:847
+ (-13)    10       optist:540
+ (-14)    11      readnew:11978
+ (-15)    17    reordermb:214
+ (-16)    11      readnew:7376
+ (-17)    17    reordermb:214
+ (-18)    11      readnew:7135
+ (-19)    17    reordermb:214
+ Internal Trace (0)
+ (  0)    10       optist:1979
+ (  1)    34        fmain:848
+  
+CPU times[sec]: user      4.104, system      0.000, Wall clock     -3.984
+ File stats with output file root: CcLoHYP
+ Work directory: "./" Free size 140.0 GB
+               0 CcLoHYP.err_9744.out
+         6690879 CcLoHYP.fem
+         1968706 CcLoHYP.hm
+             190 CcLoHYP.HM.elcheck.cmf
+             938 CcLoHYP.mvw
+           10421 CcLoHYP.out
+               0 CcLoHYP.scr_9744.out
+           10186 CcLoHYP.stat
+  
+ Work directory: "C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLo/" Free size 140.0 GB
+               0 CcLoHYP.err_9744.out
+         6690879 CcLoHYP.fem
+         1968706 CcLoHYP.hm
+             190 CcLoHYP.HM.elcheck.cmf
+             938 CcLoHYP.mvw
+           10421 CcLoHYP.out
+               0 CcLoHYP.scr_9744.out
+           10635 CcLoHYP.stat
+  
+  
+Memory info returned by Windows:
+ 69 percent of memory is in use.
+ There are 8278180 total Kbytes of physical memory.
+ There are 2500712 free Kbytes of physical memory.
+ There are 15880356 total Kbytes of paging file.
+ There are 6508312 free Kbytes of paging file.
+ There are 1fffffff80 total Kbytes of virtual memory.
+ There are 1fffae51b8 free Kbytes of virtual memory.
+ There are       0 free Kbytes of extended memory.

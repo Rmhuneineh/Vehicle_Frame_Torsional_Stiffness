@@ -1,0 +1,13 @@
+ Program execution started at Sun Apr 26 14:24:03 2020    
+	process id = 8264
+ Command line arguments:
+ C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLc/CcLcHYP.fem
+ -aif
+  
+ Expanding dictionary from 0 to 1111
+  
+  
+ ****************
+ Too many error messages. Aborting run.
+ Current limit is 10000. Use "MSGLMT" control card to change this value.
+  

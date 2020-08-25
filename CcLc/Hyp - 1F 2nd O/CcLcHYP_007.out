@@ -1,0 +1,92 @@
+ ************************************************************************
+ **                                                                    **
+ **                                                                    **
+ **                    Altair OptiStruct(TM) 2019.1                    **
+ **                                                                    **
+ **             Advanced Engineering Analysis, Design and              **
+ **        Optimization Software from Altair Engineering, Inc.         **
+ **                                                                    **
+ **                                                                    **
+ **             Windows 10  (Build 9200)  LAPTOP-H5REUNLN              **
+ **         4 CPU:  Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz          **
+ **                    1937 MB RAM,  15508 MB swap                     **
+ **                        64bit Integer Build                         **
+ **                                                                    **
+ ** Build: 0972633_9633191_Ce64RBW68UH14M:162557-100  2004004000000004 **
+ ************************************************************************
+ **  COPYRIGHT (C) 1996-2019                 Altair Engineering, Inc.  **
+ ** All Rights Reserved.  Copyright notice does not imply publication. **
+ **         Contains trade secrets of Altair Engineering, Inc.         **
+ ** Decompilation or disassembly of this software strictly prohibited. **
+ ************************************************************************
+ 
+  
+ *** OptiStruct defaults set from:
+   install config file: C:\Program Files\Altair\2019\/hwsolvers/optistruct.cfg.
+  
+  
+ NOTE # 9199
+ MSGLMT=STRICT is active, all messages will be printed.
+ You can suppress some less important warning messages by use of
+  MSGLMT=BRIEF or UNREF (in config file or in the input data).
+  
+ 
+ *** See next message about line 130328 from file:
+     C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLc/CcLcHYP.fem
+  "PBEAM          1       10.0     0.0     0.0     0.0     0.0"
+  
+ This line was interpreted as:
+ 130328:PBEAM, 1, 1, 0.0, 0.0, 0.0, 0.0, 0.0
+  
+ *** ERROR # 1000 *** in the input data:
+ Incorrect data in field # 4.
+  Expected REAL > 0, found  REAL (0).
+  
+ *** ERROR # 1000 *** in the input data:
+ Incorrect data in field # 5.
+  Expected REAL > 0, found  REAL (0).
+  
+ *** ERROR # 1000 *** in the input data:
+ Incorrect data in field # 6.
+  Expected REAL > 0, found  REAL (0).
+ MAXIMUM DISK SPACE USED                                     1 MB
+
+************************************************************************
+
+
+************************************************************************
+
+COMPUTE TIME INFORMATION
+------------------------
+
+ EXECUTION STARTED                         Sun Apr 26 14:25:47 2020    
+ EXECUTION COMPLETED                       Sun Apr 26 14:25:47 2020    
+ ELAPSED TIME                                         00:00:00
+ CPU TIME                                             00:00:00
+
+************************************************************************
+
+  
+ 
+ *** PROGRAM STOPPED: FATAL ERROR(s) ENCOUNTERED.
+ 
+                        ***** END OF REPORT *****
+  
+ For Useful OptiStruct Tips and Tricks, go to the URL:
+ http://www.altairhyperworks.com/tips.aspx
+  
+************************************************************************
+  
+ There were 3 error messages during input processing.
+  The first message is repeated below:
+  
+  
+  *** See next message about line 130328 from file:
+      C:/Users/raghe/Google Drive (s265776polito@gmail.com)/M2/Spring/Car Body Design & Aerodynamics/Car Body Design/Exercise/Exercise 2/CcLc/CcLcHYP.fem
+   "PBEAM          1       10.0     0.0     0.0     0.0     0.0"
+  
+  *** ERROR # 1000 *** in the input data:
+  Incorrect data in field # 4.
+  
+  
+************************************************************************
